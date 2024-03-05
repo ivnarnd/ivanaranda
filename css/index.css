@@ -75,3 +75,12 @@ ul, ol {
     display:inline-block;
     width:500px;
 }
+#about{
+    background-color:#000000;
+    color:#FFFFFF;
+    padding:30px 120px;
+}
+#about h2{
+    font-size:24px;
+    margin-bottom:6px;
+}
