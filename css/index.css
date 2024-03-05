@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 /* Eliminar estilos predeterminados de enlaces */
 a {
@@ -86,4 +86,10 @@ ul, ol {
 }
 #projects{
     padding:30px 120px;
+}
+.project{
+    background-color:#000000;
+    color:#FFFFFF;
+    border-radius:10px;
+    padding:15px 60px;
 }
