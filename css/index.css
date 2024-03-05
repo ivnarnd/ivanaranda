@@ -4,11 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
 }
-
 /* Eliminar estilos predeterminados de enlaces */
 a {
     text-decoration: none;
@@ -21,19 +19,59 @@ ul, ol {
 }
 
 /*Estilos de cabecera*/
-.navBar ul{
-    width:50%;
-    display:inline;
+.navBar{
+    height: 24px;
+    padding-right:120px;
+    padding-left:120px;
+    background-color:#FFFFFF;
 }
 .navBar h2{
-    font-size:16px;
+    font-size:14px;
     display:inline-block;
-    width:50%;
+    width:600px;
+}
+.navBar ul{
+    display:inline;
 }
 .navBar ul li{
-    display: inline;
-    padding-left:5px;
+    padding-top:3px;
+    display: inline-block;
+    width: 100px;
 }
 
-
-
+/*Estilos de perfil*/
+#profile {
+    background-color:#FFFFFF;
+    padding-right:120px;
+    padding-left:120px;
+    margin-top:16px;
+}
+#profile ul li{
+    display:inline;
+}
+#profile ul li img{
+    width:40px;
+    margin:5px;
+}
+#profile .profile-description{
+    display:inline-block;
+    position:relative;
+    bottom:60px;
+}
+#profile img.img-perf{
+    width:260px;
+    height:260px;
+    border-radius:100%;
+    display:inline;
+}
+#profile h1{
+    font-size: 32px;
+    margin-bottom:6px;
+}
+#profile p{
+    margin-top:4px;
+    margin-right: 200px;
+    margin-bottom:4px;
+    display:inline-block;
+    width:500px;
+}
