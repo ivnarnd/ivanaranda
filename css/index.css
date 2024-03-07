@@ -29,6 +29,7 @@ ul, ol {
     font-size:14px;
     display:inline-block;
     width:600px;
+    font-weight:150;
 }
 .navBar ul{
     display:inline;
@@ -185,4 +186,13 @@ ul, ol {
     background-color:white;
     width:400px;
     border:none;
+}
+footer{
+    background-color:black;
+    color:white;
+    padding:15px 500px;
+}
+footer h3{
+    font-size:16px;
+    font-weight:100;
 }
