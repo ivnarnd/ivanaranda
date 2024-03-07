@@ -132,3 +132,28 @@ ul, ol {
     border-radius:4px;
 
 }
+/*Estilos de formacion*/
+#training{
+    background-color:black;
+    color:white;
+    padding:30px 120px;
+}
+.titles{
+    background-color:white;
+    color:black;
+    border-radius:15px;
+    padding:15px 30px;
+}
+.title{
+    background-color:black;
+    color:white;
+    border-radius:15px;
+    padding:15px 30px;
+    display:inline-block;
+}
+.title img{
+    width:400px;
+    height:250px;
+    border-radius:15px;
+
+}
