@@ -1,8 +1,10 @@
-
+import Navbar from './components/Navbar.js';
+import SectionContainer from './components/SectionContainer.js';
 function App() {
   return (
     <div className="App">
-      <h1>Ivan Alexander Aranda</h1>
+      <Navbar/>
+      <SectionContainer/>
     </div>
   );
 }
